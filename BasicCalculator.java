@@ -1,8 +1,4 @@
 // Java program for simple calculator
-
-//import java.io.*;
-//import java.lang.*;
-//import java.lang.Math;
 import java.util.Scanner;
 public class BasicCalculator 
 {
@@ -14,7 +10,7 @@ public class BasicCalculator
 		num1 = sc.nextDouble();// take the inputs
         System.out.print("Enter the second number b :-  ");
 		num2 = sc.nextDouble();
-		System.out.print("Enter the operator (+ , - , * , / , %)   ");
+		System.out.print("Enter the operator & click (   +  or  -  or  *  or  /  or  %  ) :-  ");
 		char op = sc.next().charAt(0);
 		double o = 0;
 		switch (op)
