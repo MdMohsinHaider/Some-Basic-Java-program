@@ -34,7 +34,7 @@ public class BioData
         
         System.out.println("       Bio_Data");// heading print statement given
 
-        System.out.println("");//space
+        System.out.println("");// space
 
               //printing statement starting("a to h")
         System.out.println("1. AGE           :-  "+a);
@@ -47,8 +47,8 @@ public class BioData
         System.out.println("8. MOB No.       :-  "+h);
         System .out.printf("           End         ");
 
-       obj.close();
-       obj2.close();
+       obj.close(); // object close
+       obj2.close(); // onject close
     }    
        
 } 
